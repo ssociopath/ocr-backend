@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: '/ocr'
+  tomcat:
+    max-swallow-size: 100MB
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 15MB
+      max-request-size: 15MB
+  profiles:
+    active: common,data
+  resources:
+    static-locations: file:/home/bobo/AdvancedEAST/whole_img_results/
+  mvc:
+    static-path-pattern: /outputImage/**
