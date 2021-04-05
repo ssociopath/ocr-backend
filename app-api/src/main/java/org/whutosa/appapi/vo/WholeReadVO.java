@@ -20,7 +20,7 @@ import java.io.IOException;
 @AllArgsConstructor
 public class WholeReadVO implements ReadVO{
     public final static String MODE = "whole";
-    public final static String RELATIVE_OUTPUT_PATH = "coreja.com:8066/ocr/outputImage/";
+    public final static String RELATIVE_OUTPUT_PATH = "whutosa.coreja.com/ocr/outputImage/";
     public final static String UPLOAD_IMAGE_PATH = "/home/bobo/AdvancedEAST/whole_img_results/source/";
     public final static String TXT_OUTPUT_PATH = "/home/bobo/AdvancedEAST/whole_img_results/txt/";
 
